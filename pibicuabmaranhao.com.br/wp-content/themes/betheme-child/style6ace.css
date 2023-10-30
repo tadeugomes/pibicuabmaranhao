@@ -1,0 +1,1762 @@
+/*
+Theme Name: Betheme Child
+Theme URI: https://themes.muffingroup.com/betheme
+Author: Muffin group
+Author URI: https://muffingroup.com
+Description: Child Theme for Betheme
+Template: betheme
+Version: 1.6.2
+*/
+
+
+/* ------------ TOPO ------------ */
+
+#Top_bar .container{
+	width: 100% !important;
+}
+
+#Top_bar .top_bar_left.clearfix{
+	width: 100% !important;
+	background: #cff3c3;
+}
+#Top_bar .column{
+	width: 100% !important;
+	margin: 0 !important;
+}
+
+
+
+
+/* ------------ LOGO ------------ */
+#Top_bar #logo{
+	height: inherit !important;
+	padding: 41px 0 !important;
+}
+#Top_bar .logo{
+    margin: -5px 0px 0 132px !important;
+}
+
+
+
+
+/* ------------ MENUS ------------ */
+
+#Top_bar .top_bar_right{
+	display: none !important;
+}
+
+#Top_bar .caixa-menus{
+    background: #fff;
+    float: right;
+    width: 58%;
+}
+
+#Top_bar .caixa-menus .menu-barra-verde{
+    width: 80%;
+    padding: 12px 0;
+}
+#Top_bar .caixa-menus .menu-barra-verde ul{
+    float: right;
+}
+#Top_bar .caixa-menus .menu-barra-verde li{
+    float: left;
+    margin: 0 0 0 60px;
+}
+#Top_bar .caixa-menus .menu-barra-verde li a{
+    color: #92aa42;
+    font-family: 'myriad-pro-bold-2';
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 16px;
+    text-decoration: none;
+}
+@font-face {
+    font-family: 'myriad-pro-bold-2';
+    src: local('myriad-pro-bold-2'), url("fontes/myriad-pro-bold-2.ttf");
+}
+
+
+#Top_bar .caixa-menus .menu-barra-verde .widget{
+	margin-top: 0 !important;
+}
+
+#Top_bar .caixa-menus .container-2{
+    background: #17370b;
+}
+
+
+#Top_bar #menu{
+    float: right;
+    width: 77%;
+}
+#Top_bar .menu_wrapper{
+    width: 100%;
+    padding: 38px 0;
+}
+
+#Top_bar .menu > li.current-menu-item > a{
+    color: #17370b !important;
+}
+#Top_bar .menu > li{
+	margin: 0 -26px 0 112px !important;
+}
+#Top_bar .menu > li > a{
+    padding: 0 !important;
+    text-transform: uppercase;
+    font-family: 'myriad-pro';
+    color: #688a5c !important;
+    font-size: 17px;
+    font-weight: 100 !important;
+}
+#Top_bar .menu > li > a:hover{
+	color: #17370b !important;
+}
+@font-face {
+    font-family: 'myriad-pro';
+    src: local('myriad-pro'), url("fontes/myriad-pro.ttf");
+}
+
+#Top_bar .menu > li#menu-item-156:before{
+	display: none;
+}
+#Top_bar .menu > li:before{
+    content: '';
+    background: #4d6543;
+    padding: 2px;
+    position: absolute;
+    margin: 27px -44px;
+    border-radius: 21px;
+}
+
+
+
+/* ------------ SUBMENU ------------ */
+
+.sub-menu{
+    /*display: block !important;*/
+    background: #17370b !important;
+    border-top: 5px solid #92aa42;
+}
+.sub-menu li{
+	text-align: center !important;
+}
+.sub-menu li a{
+    color: #fff !important;
+    font-family: 'myriad-pro';
+    text-transform: uppercase;
+}
+.sub-menu li a:hover{
+	background: #4f5d19 !important;
+}
+.sub-menu li.current_page_item a{
+	background: #4f5d19 !important;
+}
+
+
+
+/* ------------ SLIDE ------------ */
+
+
+.frase-slide h3{
+    overflow: hidden;
+    display: inline-block;
+    color: #fff !important;
+    font-family: 'raleway-light';
+    text-transform: uppercase !important;
+    font-weight: 500 !important;
+    font-size: 26px !important;
+    margin: 40px -4px 0 !important;
+}
+@font-face {
+    font-family: 'raleway-light';
+    src: local('raleway-light'), url("fontes/raleway-light.ttf");
+}
+.frase-slide h3:before{
+    content: '';
+    background: #fff;
+    position: absolute;
+    width: 498px;
+    margin: -29px 0 0;
+    height: 1px;
+}
+/*.frase-slide h3:after{
+   content: '';
+    display: inline-block;
+    background-color: white;
+    margin-left: 2px;
+    height: 25px;
+    width: 2px;
+    animation: cursor 0.6s infinite;
+}*/
+
+/* The typewriter cursor effect */
+  @keyframes cursor {
+    0% { opacity: 1; }
+    49% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+
+
+
+/* ------------ BODY A ------------ */
+
+.body-a{
+	background: url(images/fundo-body-a.jpg) no-repeat;
+    padding-top: 119px;
+    padding-bottom: 90px;
+    background-size: 100%;
+}
+
+.body-a .linha-1{
+    margin-bottom: 52px;
+}
+
+.body-a .linha-1 .vc_col-sm-3{
+    width: 31%;
+    margin: 45px 0 0;
+}
+.body-a .linha-1 .vc_col-sm-3 h3{
+    color: #1f1f1f;
+    font-family: 'poiret-one';
+    font-weight: 600;
+    font-size: 25px;
+    margin: 8px 0 0;
+}
+@font-face {
+    font-family: 'poiret-one';
+    src: local('poiret-one'), url("fontes/poiret-one.ttf");
+}
+.body-a .linha-1 .vc_col-sm-3 h1{
+    color: #92aa42;
+    font-family: 'dancing-script-bold';
+    font-size: 58px;
+}
+@font-face {
+    font-family: 'dancing-script-bold';
+    src: local('dancing-script-bold'), url("fontes/dancing-script-bold.ttf");
+}
+
+
+.body-a .linha-1 .vc_col-sm-9{
+	width: 69%;
+}
+.body-a .linha-1 .vc_col-sm-9 h3{
+    color: #37440c;
+    font-family: 'arial-rounded-mt-bold';
+    font-size: 33px !important;
+    line-height: 44px;
+}
+@font-face {
+    font-family: 'arial-rounded-mt-bold';
+    src: local('arial-rounded-mt-bold'), url("fontes/arial-rounded-mt-bold.ttf");
+}
+
+
+.body-a .linha-2:before{
+    content: '';
+    background: #b9bfb6;
+    width: 97%;
+    position: absolute;
+    height: 1px;
+    margin: -41px 13px 0;
+}
+.body-a .linha-2 h3{
+    color: #17370b;
+    font-family: 'raleway';
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 21px;
+}
+@font-face {
+    font-family: 'raleway';
+    src: local('raleway'), url("fontes/raleway.ttf");
+}
+
+
+.body-a .linha-2 p{
+    color: #444444;
+    font-family: 'raleway';
+    font-size: 17px;
+    text-align: justify;
+    line-height: 26px;
+}
+@font-face {
+    font-family: 'raleway';
+    src: local('raleway'), url("fontes/raleway.ttf");
+}
+
+
+
+
+
+/* ------------ BODY B ------------ */
+
+.body-b{
+    background: url(images/fundo-body-b.jpg) no-repeat;
+    background-size: 100% !important;
+    padding: 70px 0 83px;
+}
+
+.body-b h1{
+    text-align: center;
+    font-family: 'raleway';
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 35px;
+}
+@font-face {
+    font-family: 'raleway';
+    src: local('raleway'), url("fontes/raleway.ttf");
+}
+
+.body-b .owl-stage-outer h3 {
+    text-align: center;
+}
+.body-b .owl-stage-outer h3 a{
+    font-family: 'dancing-script-bold';
+    color: #92aa42;
+    font-size: 28px;
+    margin: -12px 0 0;
+    text-decoration: none;
+}
+@font-face {
+    font-family: 'dancing-script-bold';
+    src: local('dancing-script-bold'), url("fontes/dancing-script-bold.ttf");
+}
+.body-b .owl-stage-outer p{
+	text-align: center;
+}
+.body-b .owl-stage-outer p img{
+	transition: 0.2s;
+}
+.body-b .owl-stage-outer p img:hover{
+	transition: 0.2s;
+	margin-top: -16px;
+	margin-bottom: 16px;
+}
+
+.body-b .white .sa_owl_theme .owl-nav .owl-prev{
+	background: url(images/seta-esquerda.png) center no-repeat !important;
+	left: -23px !important;
+}
+
+
+.body-b .white .sa_owl_theme .owl-nav .owl-next{
+	background: url(images/seta-direita.png) center no-repeat !important;
+	right: -29px !important;
+}
+
+.body-b .white .sa_owl_theme .owl-nav .owl-prev:hover,
+.body-b .white .sa_owl_theme .owl-nav .owl-next:hover{
+    background-color: transparent !important;
+}
+
+.body-b .white .sa_owl_theme .owl-nav .owl-prev:focus,
+.body-b .white .sa_owl_theme .owl-nav .owl-next:focus{
+	outline: none !important;
+}
+
+
+
+
+
+
+/* ------------ RODAPÉ ------------ */
+
+#Footer .widgets_wrapper{
+	background: #ededed;
+}
+
+#Footer .widgets_wrapper .column.one-third:nth-child(1){
+    width: 55%;
+    margin-top: 34px;
+}
+#Footer .widgets_wrapper .column.one-third:nth-child(1) h3{
+    color: #92aa42 !important;
+    font-family: 'arial-rounded-mt-bold';
+    font-size: 60px;
+    line-height: 91px;
+}
+@font-face {
+    font-family: 'arial-rounded-mt-bold';
+    src: local('arial-rounded-mt-bold'), url("fontes/arial-rounded-mt-bold.ttf");
+}
+#Footer .widgets_wrapper .column.one-third:nth-child(1) h3 strong{
+    color: #112b03;
+    font-size: 103px;
+    font-weight: 900;
+}
+#Footer .widgets_wrapper .column.one-third:nth-child(1) h3 strong:before{
+    content: '#';
+    padding: 4px;
+    color: #92aa42;
+}
+#Footer .widgets_wrapper .column.one-third:nth-child(1) p{
+    font-family: 'raleway';
+    color: #112b03;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 26px;
+}
+@font-face {
+    font-family: 'raleway';
+    src: local('raleway'), url("fontes/raleway.ttf");
+}
+
+
+
+
+#Footer .widgets_wrapper .column.one-third:nth-child(2){
+    width: 40%;
+    float: right;
+    margin: 30px 0 0;
+}
+#Footer .widgets_wrapper .column.one-third:nth-child(2) img{
+	margin:0;
+	transition: 0.2s;
+}
+
+#Footer .widgets_wrapper .column.one-third:nth-child(2) img:hover{
+	transition: 0.2s;
+	transform: scale(0.9);
+}
+
+#Footer .widgets_wrapper .column.one-third:nth-child(2) p{
+	margin: 0 0 8px;
+}
+
+#Footer .widgets_wrapper .column.one-third:nth-child(2) p:nth-child(1) img:nth-child(2),
+#Footer .widgets_wrapper .column.one-third:nth-child(2) p:nth-child(2) img:nth-child(2),
+#Footer .widgets_wrapper .column.one-third:nth-child(2) p:nth-child(3) img:nth-child(2){
+    margin: 0 !important;
+    float: right !important;
+}
+
+#Footer .widgets_wrapper .column.one-third:nth-child(2) p:nth-child(1) a:nth-child(2),
+#Footer .widgets_wrapper .column.one-third:nth-child(2) p:nth-child(2) a:nth-child(2),
+#Footer .widgets_wrapper .column.one-third:nth-child(2) p:nth-child(3) a:nth-child(2){
+    float: right !important;
+}
+
+
+
+#Footer .widgets_wrapper .column.one-third:nth-child(3){
+    width: 100%;
+    display: none;
+}
+#Footer .widgets_wrapper .column.one-third:nth-child(3) p{
+    color: #112b03;
+    font-family: 'arial-rounded-mt-bold';
+    font-size: 18px;
+}
+#Footer .widgets_wrapper .column.one-third:nth-child(3) img{
+   margin: 8px 0 -9px;
+}
+
+
+
+
+
+/* ------------ COPY ------------ */
+
+#Footer .footer_copy{
+	border: none !important;
+	background: #0b1c01;
+}
+
+#Footer .footer_copy .social-menu,
+#back_to_top{
+	display: none !important;
+}
+
+#Footer .footer_copy .copyright{
+    width: 100%;
+    color: #fff;
+    font-family: 'myriad-pro';
+    font-weight: 500;
+    font-size: 15px;
+}
+@font-face {
+    font-family: 'myriad-pro';
+    src: local('myriad-pro'), url("fontes/myriad-pro.ttf");
+}
+
+#Footer .footer_copy .copyright img{
+	float: right;
+}
+
+
+#Footer .footer_copy .copyright img.certificado{
+    float: left;
+    margin: -2px 9px -3px 0;
+}
+
+
+
+
+
+/* ------------ PÁGINAS ------------ */
+
+
+
+/* ------------ SESSÕES ------------ */
+
+.page-id-176 #Subheader{
+	display: none;
+}
+
+.page-id-176 #Content{
+	padding: 0 !important;
+}
+
+.page-id-176 .pg-sessoes-linha1{
+    padding: 0;
+    background: url(images/pg-sessos.jpg) no-repeat; 
+    background-size: 100%;
+    background-attachment: fixed;
+    margin-bottom: 72px;
+}
+.page-id-176 .pg-sessoes-linha1 .vc_col-sm-12{
+    height: 100%!important;
+    background: linear-gradient(45deg, #59a04ebf, transparent);
+    min-height: 350px;
+    box-sizing: border-box;
+    padding:203px 0px 0 123px;
+    width: 100%;
+}
+
+.page-id-176 .pg-sessoes-linha1 h1{
+    color: #fff;
+    font-family: 'arial-rounded-mt-bold';
+    text-transform: uppercase;
+    font-size: 32px;
+}
+@font-face {
+    font-family: 'arial-rounded-mt-bold';
+    src: local('arial-rounded-mt-bold'), url("fontes/arial-rounded-mt-bold.ttf");
+}
+
+
+.page-id-176 .pg-sessoes{
+	padding-top: 60px;
+}
+
+.page-id-176 .pg-sessoes .clearfix{
+    width: 31%;
+    margin: 0 auto;
+}
+
+.page-id-176 .pg-sessoes .posts_group.grid.col-3 .post-item{
+    width: 100% !important;
+}
+
+.page-id-176 .pg-sessoes .grid .post-desc-wrapper .post-desc{
+    padding: 27px 21px 0 !important;
+    background: #ecffe5;
+    height: 215px;
+    border-radius: 19px;
+    box-shadow: 0px 0px 8px #a0a99c;
+}
+.page-id-176 .pg-sessoes .grid .post-desc-wrapper .post-desc h2 {
+    line-height: 20px;
+    text-align: center;
+    height: 96px;
+}
+.page-id-176 .pg-sessoes .grid .post-desc-wrapper .post-desc h2 a{
+    color: #17370b;
+    font-family: 'arial-rounded-mt-bold';
+    font-size: 23px;
+}
+
+.page-id-176 .pg-sessoes .grid .post-desc-wrapper .post-desc .post-footer{
+	background: transparent !important;
+}
+
+.page-id-176 .pg-sessoes .grid .post-desc-wrapper .post-desc .post-footer .post-links{
+	float: left;
+    border-left-width: 0;
+    border-style: solid;
+    padding-left: 0;
+    width: 100% !important;
+    text-align: center;
+}
+
+.page-id-176 .pg-sessoes .grid .post-desc-wrapper .post-desc .post-footer .post-links .post-more{
+    background: #17370b;
+    font-family: 'myriad-pro';
+    text-transform: uppercase;
+    padding: 9px 29px;
+    border-radius: 50px;
+    font-size: 17px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.page-id-176 .pg-sessoes .grid .post-desc-wrapper .post-desc .post-footer .post-links .icon-doc-text{
+	display: none;
+}
+
+
+
+
+
+
+.post-template-default #Subheader{
+	background: #fff url(images/pg-sessos.jpg) no-repeat;
+	background-size: 100% !important;
+	padding: 0 !important;
+	background-attachment: fixed;
+}
+.post-template-default #Subheader .container{
+	min-height: 350px;
+    box-sizing: border-box;
+    padding: 203px 0px 0 123px;
+    max-width: 100%;
+    background: linear-gradient(45deg, #59a04ebf, transparent);
+}
+.post-template-default #Subheader .container h1{
+    color: #fff;
+    text-align: left;
+    font-style: normal;
+    font-family: 'arial-rounded-mt-bold';
+    font-size: 33px !important;
+}
+@font-face {
+    font-family: 'arial-rounded-mt-bold';
+    src: local('arial-rounded-mt-bold'), url("fontes/arial-rounded-mt-bold.ttf");
+}
+
+
+
+.post-template-default #Content h3{
+    color: #333;
+    font-family: 'arial-rounded-mt-bold';
+    text-transform: uppercase;
+    font-size: 24px;
+}
+.post-template-default #Content p{
+    color: #4c4c4c;
+    font-family: 'raleway';
+    font-size: 16px;
+    text-align: justify;
+    line-height: 26px;
+}
+@font-face {
+    font-family: 'arial-rounded-mt-bold';
+    src: local('arial-rounded-mt-bold'), url("fontes/arial-rounded-mt-bold.ttf");
+}
+.post-template-default #Content strong{
+    color: #101010;
+    font-family: 'arial-rounded-mt-bold';
+    text-transform: uppercase;
+    font-size: 17px;
+}
+@font-face {
+    font-family: 'arial-rounded-mt-bold';
+    src: local('arial-rounded-mt-bold'), url("fontes/arial-rounded-mt-bold.ttf");
+}
+.post-template-default #Content p a{
+    color: #fff;
+    font-family: 'arial-rounded-mt-bold';
+    background: #17370b;
+    padding: 6px 13px;
+    border-radius: 21px;
+    text-decoration: none;
+}
+@font-face {
+    font-family: 'arial-rounded-mt-bold';
+    src: local('arial-rounded-mt-bold'), url("fontes/arial-rounded-mt-bold.ttf");
+}
+
+.wpb-js-composer .vc_tta.vc_tta-spacing-1 .vc_tta-tab{
+	margin: 2px 0px 0 4px !important;
+}
+.wpb-js-composer .vc_tta-color-grey.vc_tta-style-classic .vc_tta-tab.vc_active>a{
+	background: #17370b !important;
+}
+.wpb-js-composer .vc_tta.vc_tta-style-classic .vc_tta-tab>a{
+    border-width: 0 !important;
+    background: #92aa42 !important;
+    font-family: 'arial-rounded-mt-bold';
+    color: #fff !important;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 10px 7px !important;
+    border-radius: 7px !important;
+    transition: 0.2s;
+}
+.wpb-js-composer .vc_tta.vc_tta-style-classic .vc_tta-tab>a:hover{
+	background: #17370b !important;
+	color: #fff !important;
+	transition: 0.2s;
+}
+@font-face {
+    font-family: 'arial-rounded-mt-bold';
+    src: local('arial-rounded-mt-bold'), url("fontes/arial-rounded-mt-bold.ttf");
+}
+
+.wpb-js-composer .vc_tta-color-grey.vc_tta-style-classic.vc_tta-tabs .vc_tta-panels{
+    background: #ecffe5 !important;
+    border: none !important;
+    border-radius: 8px !important;
+}
+
+.wpb-js-composer .vc_tta.vc_general .vc_tta-panel.vc_active .vc_tta-panel-body{
+    margin: 15px 0 0;
+    padding: 30px 27px !important;
+    border: none !important;
+}
+.wpb-js-composer .vc_tta.vc_general .vc_tta-panel.vc_active .vc_tta-panel-body img{
+    border: 3px solid #fff;
+    border-radius: 10px;
+    margin: 22px 0 0;
+    box-shadow: 0px 0px 10px #777777;
+}
+
+
+.post-template-default .share-simple-wrapper,
+.post-template-default .section.section-post-related{
+	display: none;
+}
+
+
+
+
+
+/* ------------ SOBRE O PROJETO ------------ */
+
+.page-id-178 #Subheader{
+	display: none;
+}
+.page-id-178 #Content{
+	padding: 0 !important;
+}
+
+.page-id-178 .pg-projeto-linha1{
+    padding: 0;
+    background: url(images/fundo-projeto.jpg) no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.page-id-178 .pg-projeto-linha1 .vc_col-sm-12{
+    height: 100%!important;
+    background: linear-gradient(45deg, #59a04ebf, transparent);
+    min-height: 350px;
+    box-sizing: border-box;
+    padding:203px 0px 0 123px;
+    width: 100%;
+}
+.page-id-178 .pg-projeto-linha1 h1{
+    color: #fff;
+    font-family: 'arial-rounded-mt-bold';
+    text-transform: uppercase;
+}
+@font-face {
+    font-family: 'arial-rounded-mt-bold';
+    src: local('arial-rounded-mt-bold'), url("fontes/arial-rounded-mt-bold.ttf");
+}
+
+.page-id-178 .pg-sobre-projeto{
+    background: white;
+    padding: 38px 35px;
+    margin-top: -32px;
+    position: relative;
+    border-radius: 19px;
+}
+
+.page-id-178 .pg-sobre-projeto p{
+    font-family: 'raleway';
+    color: #112b03;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.page-id-178 .pg-sobre-projeto .vc_col-sm-6 h3{
+    color: #17370b;
+    font-family: 'arial-rounded-mt-bold';
+    font-size: 18px;
+    line-height: 25px;
+    height: 108px;
+    margin: 25px 0 0;
+}
+.page-id-178 .pg-sobre-projeto .vc_col-sm-6 li{
+    font-family: 'raleway';
+    color: #112b03;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 26px;
+    font-style: italic;
+}
+.page-id-178 .pg-sobre-projeto .vc_col-sm-6 li a{
+    background: #17370b;
+    padding: 3px 8px;
+    border-radius: 28px;
+    color: #fff;
+}
+.page-id-178 .pg-sobre-projeto .vc_col-sm-6 strong{
+    color: black;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+
+
+.page-id-178 .pg-sobre-projeto .equipe .vc_separator.vc_separator_align_center h4{
+    color: #17370b;
+    font-family: 'arial-rounded-mt-bold';
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.page-id-178 .pg-sobre-projeto .equipe .vc_separator.vc_sep_color_grey .vc_sep_line{
+    border-color: #17370b !important;
+}
+.page-id-178 .pg-sobre-projeto .equipe .vc_col-sm-3 h3{
+    text-align: center !important;
+    font-family: 'arial-rounded-mt-bold';
+    color: #17370b;
+    font-size: 20px;
+    line-height: 24px;
+    border-bottom: 1px solid;
+    height: 68px;
+}
+.page-id-178 .pg-sobre-projeto .equipe .vc_col-sm-3 p{
+    text-align: center;
+    font-family: 'raleway';
+    font-size: 14px;
+    line-height: 18px;
+    color: #000;
+}
+
+
+
+
+
+
+/* ------------ POLOS - TODO O CONTEÚDOS DOS POLOS JUNTOS ------------ */
+
+.content-polos{
+    background: white;
+    padding: 52px 46px;
+    margin-top: -34px;
+    position: relative;
+    border-radius: 19px;
+}
+.content-polos p{
+    font-family: 'raleway';
+    color: #112b03;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 29px;
+}
+.content-polos p.botao-polos{
+	text-align: center;
+}
+.content-polos p.botao-polos a{
+    background: green;
+    font-family: 'arial-rounded-mt-bold';
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 17px;
+    padding: 14px 28px;
+    border-radius: 59px;
+    text-decoration: none;
+    box-shadow: 5px 5px 6px #969696;
+}
+
+
+
+
+
+
+/* ------------ PORTO FRANCO ------------ */
+.page-id-221 #Subheader{
+	display: none;
+}
+.page-id-221 #Content{
+	padding: 0 !important;
+}
+
+.page-id-221 .pg-porto-franco-linha1{
+    padding: 0;
+    background: url(images/fundo-porto-franco.jpg) no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.page-id-221 .pg-porto-franco-linha1 .vc_col-sm-12{
+    height: 100%!important;
+    background: linear-gradient(45deg, #59a04ebf, transparent);
+    min-height: 350px;
+    box-sizing: border-box;
+    padding:203px 0px 0 123px;
+    width: 100%;
+}
+.page-id-221 .pg-porto-franco-linha1 h1{
+    color: #fff;
+    font-family: 'arial-rounded-mt-bold';
+    text-transform: uppercase;
+}
+@font-face {
+    font-family: 'arial-rounded-mt-bold';
+    src: local('arial-rounded-mt-bold'), url("fontes/arial-rounded-mt-bold.ttf");
+}
+
+
+
+/* ------------ VIANA ------------ */
+.page-id-223 #Subheader{
+	display: none;
+}
+.page-id-223 #Content{
+	padding: 0 !important;
+}
+
+.page-id-223 .pg-viana-linha1{
+    padding: 0;
+    background: url(images/fundo-viana.jpg) no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.page-id-223 .pg-viana-linha1 .vc_col-sm-12{
+    height: 100%!important;
+    background: linear-gradient(45deg, #59a04ebf, transparent);
+    min-height: 350px;
+    box-sizing: border-box;
+    padding:203px 0px 0 123px;
+    width: 100%;
+}
+.page-id-223 .pg-viana-linha1 h1{
+    color: #fff;
+    font-family: 'arial-rounded-mt-bold';
+    text-transform: uppercase;
+}
+@font-face {
+    font-family: 'arial-rounded-mt-bold';
+    src: local('arial-rounded-mt-bold'), url("fontes/arial-rounded-mt-bold.ttf");
+}
+
+
+
+/* ------------ IMPERATRIZ ------------ */
+.page-id-224 #Subheader{
+	display: none;
+}
+.page-id-224 #Content{
+	padding: 0 !important;
+}
+
+.page-id-224 .pg-imperatriz-linha1{
+    padding: 0;
+    background: url(images/fundo-imperatriz.jpg) no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.page-id-224 .pg-imperatriz-linha1 .vc_col-sm-12{
+    height: 100%!important;
+    background: linear-gradient(45deg, #59a04ebf, transparent);
+    min-height: 350px;
+    box-sizing: border-box;
+    padding:203px 0px 0 123px;
+    width: 100%;
+}
+.page-id-224 .pg-imperatriz-linha1 h1{
+    color: #fff;
+    font-family: 'arial-rounded-mt-bold';
+    text-transform: uppercase;
+}
+@font-face {
+    font-family: 'arial-rounded-mt-bold';
+    src: local('arial-rounded-mt-bold'), url("fontes/arial-rounded-mt-bold.ttf");
+}
+
+
+
+/* ------------ NINA RODRIGUES ------------ */
+.page-id-225 #Subheader{
+	display: none;
+}
+.page-id-225 #Content{
+	padding: 0 !important;
+}
+
+.page-id-225 .pg-nina-rodrigues-linha1{
+    padding: 0;
+    background: url(images/fundo-nina-rodrigues.jpg) no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.page-id-225 .pg-nina-rodrigues-linha1 .vc_col-sm-12{
+    height: 100%!important;
+    background: linear-gradient(45deg, #59a04ebf, transparent);
+    min-height: 350px;
+    box-sizing: border-box;
+    padding:203px 0px 0 123px;
+    width: 100%;
+}
+.page-id-225 .pg-nina-rodrigues-linha1 h1{
+    color: #fff;
+    font-family: 'arial-rounded-mt-bold';
+    text-transform: uppercase;
+}
+@font-face {
+    font-family: 'arial-rounded-mt-bold';
+    src: local('arial-rounded-mt-bold'), url("fontes/arial-rounded-mt-bold.ttf");
+}
+
+
+/* ------------ ANAPURUS ------------ */
+.page-id-245 #Subheader{
+	display: none;
+}
+.page-id-245 #Content{
+	padding: 0 !important;
+}
+
+.page-id-245 .pg-anapurus-linha1{
+    padding: 0;
+    background: url(images/fundo-anapurus.jpg) no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.page-id-245 .pg-anapurus-linha1 .vc_col-sm-12{
+    height: 100%!important;
+    background: linear-gradient(45deg, #59a04ebf, transparent);
+    min-height: 350px;
+    box-sizing: border-box;
+    padding:203px 0px 0 123px;
+    width: 100%;
+}
+.page-id-245 .pg-anapurus-linha1 h1{
+    color: #fff;
+    font-family: 'arial-rounded-mt-bold';
+    text-transform: uppercase;
+}
+@font-face {
+    font-family: 'arial-rounded-mt-bold';
+    src: local('arial-rounded-mt-bold'), url("fontes/arial-rounded-mt-bold.ttf");
+}
+
+
+
+
+
+
+/* ------------ SANTA INÊS ------------ */
+.page-id-247 #Subheader{
+	display: none;
+}
+.page-id-247 #Content{
+	padding: 0 !important;
+}
+
+.page-id-247 .pg-santa-ines-linha1{
+    padding: 0;
+    background: url(images/fundo-santa-ines.jpg) no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.page-id-247 .pg-santa-ines-linha1 .vc_col-sm-12{
+    height: 100%!important;
+    background: linear-gradient(45deg, #59a04ebf, transparent);
+    min-height: 350px;
+    box-sizing: border-box;
+    padding:203px 0px 0 123px;
+    width: 100%;
+}
+.page-id-247 .pg-santa-ines-linha1 h1{
+    color: #fff;
+    font-family: 'arial-rounded-mt-bold';
+    text-transform: uppercase;
+}
+@font-face {
+    font-family: 'arial-rounded-mt-bold';
+    src: local('arial-rounded-mt-bold'), url("fontes/arial-rounded-mt-bold.ttf");
+}
+
+
+
+
+
+
+/* ------------ ANAIS ELETRÔNICOS ------------ */
+.page-id-154 #Subheader{
+	display: none;
+}
+.page-id-154 #Content{
+	padding: 0 !important;
+}
+
+.page-id-154 .pg-anais-eletronicos-linha1{
+    padding: 0;
+    background: url(images/fundo-anais-eletronicos.jpg) no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.page-id-154 .pg-anais-eletronicos-linha1 .vc_col-sm-12{
+    height: 100%!important;
+    background: linear-gradient(45deg, #59a04ebf, transparent);
+    min-height: 350px;
+    box-sizing: border-box;
+    padding:203px 0px 0 123px;
+    width: 100%;
+}
+.page-id-154 .pg-anais-eletronicos-linha1 h1{
+    color: #fff;
+    font-family: 'arial-rounded-mt-bold';
+    text-transform: uppercase;
+}
+@font-face {
+    font-family: 'arial-rounded-mt-bold';
+    src: local('arial-rounded-mt-bold'), url("fontes/arial-rounded-mt-bold.ttf");
+}
+
+
+.page-id-154 .pg-anais-eletronicos{
+    padding-bottom: 90px;
+}
+
+.page-id-154 .pg-anais-eletronicos h1{
+    text-align: center;
+    font-family: 'arial-rounded-mt-bold';
+    text-transform: uppercase;
+    font-size: 29px;
+    font-weight: 700;
+    color: #17370b;
+    margin: 61px 0 117px !important;
+}
+.page-id-154 .pg-anais-eletronicos h1:before{
+    content: '';
+    background: #00bb56;
+    width: 126px;
+    position: absolute;
+    height: 11px;
+    border-radius: 25px;
+    margin: 54px 379px;
+}
+
+
+.page-id-154 .pg-anais-eletronicos .vc_col-sm-4{
+    background: #ecffe5;
+    width: 30%;
+    margin: 0 0 0 28px;
+    padding: 0 0 30px;
+    box-shadow: 0px 0px 11px #88a77c;
+    border-radius: 8px;
+    height: 170px;
+}
+.page-id-154 .pg-anais-eletronicos .vc_col-sm-4:before{
+    content: '';
+    background: #17370b;
+    position: absolute;
+    width: 75px;
+    height: 11px;
+    border-radius: 31px;
+    margin: -5px 126px;
+}
+
+.page-id-154 .pg-anais-eletronicos .vc_col-sm-4:hover{
+    box-shadow: 0px 0px 11px #284e19;
+}
+.page-id-154 .pg-anais-eletronicos .vc_col-sm-4 h3{
+    text-align: center;
+}
+.page-id-154 .pg-anais-eletronicos .vc_col-sm-4 h3 a{
+    background: url(images/icone-anais-eletronicos.png) center top no-repeat;
+    background-size: 71px;
+    padding: 77px 0 20px;
+    float: left;
+    width: 100%;
+    font-family: 'arial-rounded-mt-bold';
+    text-transform: uppercase;
+    color: #92aa42;
+}
+
+
+
+.category-polo-santa-ines .vc_col-sm-12,
+.category-polo-imperatriz .vc_col-sm-12,
+.category-polo-anapurus .vc_col-sm-12,
+.category-polo-porto-frango .vc_col-sm-12,
+.category-polo-viana .vc_col-sm-12,
+.category-polo-nina-rodrigues .vc_col-sm-12{
+    background: white;
+    padding: 55px 43px 0;
+    border-radius: 20px;
+    margin: -153px 0 0;
+}
+
+.category-polo-santa-ines .vc_col-sm-12 .vc_row-fluid,
+.category-polo-imperatriz .vc_col-sm-12 .vc_row-fluid,
+.category-polo-anapurus .vc_col-sm-12 .vc_row-fluid,
+.category-polo-porto-frango .vc_col-sm-12 .vc_row-fluid,
+.category-polo-viana .vc_col-sm-12 .vc_row-fluid,
+.category-polo-nina-rodrigues .vc_col-sm-12 .vc_row-fluid{
+    border-bottom: 1px solid #c3c3c3;
+}
+
+.category-polo-santa-ines .vc_col-sm-12 h1,
+.category-polo-imperatriz .vc_col-sm-12 h1,
+.category-polo-anapurus .vc_col-sm-12 h1,
+.category-polo-porto-frango .vc_col-sm-12 h1,
+.category-polo-viana .vc_col-sm-12 h1,
+.category-polo-nina-rodrigues .vc_col-sm-12 h1{
+    color: #000;
+    font-family: 'arial-rounded-mt-bold';
+    font-size: 33px;
+    line-height: 43px;
+    text-align: center;
+    margin: 0 0 14px;
+}
+.category-polo-santa-ines .vc_col-sm-12 h3,
+.category-polo-imperatriz .vc_col-sm-12 h3,
+.category-polo-anapurus .vc_col-sm-12 h3,
+.category-polo-porto-frango .vc_col-sm-12 h3,
+.category-polo-viana .vc_col-sm-12 h3,
+.category-polo-nina-rodrigues .vc_col-sm-12 h3{
+    color: #565656 !important;
+    text-align: center;
+    text-transform: inherit !important;
+    font-family: 'raleway' !important;
+    font-size: 18px !important;
+    margin: 0 0 100px;
+}
+.category-polo-santa-ines .vc_col-sm-12 .vc_col-sm-8 a,
+.category-polo-imperatriz .vc_col-sm-12 a,
+.category-polo-anapurus .vc_col-sm-12 a,
+.category-polo-porto-frango .vc_col-sm-12 a,
+.category-polo-viana .vc_col-sm-12 a,
+.category-polo-nina-rodrigues .vc_col-sm-12 a{
+    background: transparent !important;
+    padding: 0 !important;
+    color: #000 !important;
+    font-family: 'myriad-pro' !important;
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 2px solid;
+    border-radius: 0 !important;
+    line-height: 32px !important;
+}
+.category-polo-santa-ines .vc_col-sm-12 .vc_col-sm-8 strong,
+.category-polo-imperatriz .vc_col-sm-12 strong,
+.category-polo-anapurus .vc_col-sm-12 strong,
+.category-polo-porto-frango .vc_col-sm-12 strong,
+.category-polo-viana .vc_col-sm-12 strong,
+.category-polo-nina-rodrigues .vc_col-sm-12 strong{
+    color: #92aa42 !important;
+    font-size: 17px !important;
+}
+
+.category-polo-santa-ines .vc_col-sm-12 .vc_col-sm-4 iframe{
+    border: 5px solid white;
+    box-shadow: 0px 0px 9px #636363;
+}
+
+
+
+
+
+
+
+
+          @media screen and (max-width: 768px){
+             
+
+           /* ------------ TOPO e MENU ------------ */
+
+           #Top_bar .logo{
+           	   margin: 0 !important;
+           }
+           #Top_bar .caixa-menus{
+           	   width: 100%;
+               float: left;
+           }
+           #Top_bar .caixa-menus .menu-barra-verde{
+           	   width: 100%;
+           	   padding: 13px 0 1px;
+           	   margin: 0 0 -4px;
+           }
+           #Top_bar .caixa-menus .menu-barra-verde ul{
+           	   float: left;
+           	   width: 100%;
+           }
+           #Top_bar .menu_wrapper{
+           	   padding: 0 !important;
+           }
+
+           
+           /* ------------ LOGO ------------ */
+
+           #Top_bar .logo #logo{
+           	   margin: 10px 63px 10px 9px !important;
+           }
+
+
+           /* ------------ SLIDE ------------ */
+
+           .frase-slide h3{
+           	    overflow: hidden;
+			    display: inline-block;
+			    color: #fff !important;
+			    font-family: 'raleway-light';
+			    text-transform: uppercase !important;
+			    font-weight: 500 !important;
+			    font-size: 15px !important;
+			    margin: 8px -4px 0 !important;
+			    padding: 19px 0 5px !important;
+           }
+           .frase-slide h3:before{
+           	    content: '';
+			    background: #fff;
+			    position: absolute;
+			    width: 285px;
+			    margin: -19px 0 0;
+			    height: 1px;
+           }
+
+
+
+
+           /* ------------ MENU ------------ */
+
+           body.mobile-side-slide{
+           	    left: 0 !important;
+           }
+
+           #Top_bar a.responsive-menu-toggle{
+           	    color: #17370b;
+           	    top: 71px !important;
+           }
+           #Top_bar a.responsive-menu-toggle i{
+           	    font-size: 28px !important;
+           }
+
+           #Side_slide .extras{
+           	    display: none;
+           }
+
+           #Side_slide{
+           	    background: transparent !important;
+           }
+
+           #Side_slide #menu{
+                background: #fff !important;
+			    padding: 32px 0 22px;
+			    border-radius: 15px 0px 0px 15px;
+           }
+
+           #Side_slide #menu ul li{
+           	   text-align: center;
+           }
+
+           #Side_slide #menu ul li.current-menu-item > a{
+           	    color: #17370b;
+           }
+
+           #Side_slide .sub-menu li.current-menu-item > a{
+                color: #17370b !important;
+           }
+
+           #Side_slide #menu ul li a{
+			    padding: 10px 0 10px 0 !important;
+			    margin-right: 0 !important;
+			    color: #7aa56a !important;
+			    font-family: 'myriad-pro';
+			    text-transform: uppercase;
+			    font-size: 17px;
+			    font-weight: 500;
+           }
+
+           #Side_slide .close-wrapper a.close{
+           	    margin: 56px 216px 0 0;
+			    background: #17370b;
+			    text-align: center;
+			    border-radius: 10px 0px 0px 0px;
+			    color: #fff;
+           }
+
+            #Side_slide #menu ul li.submenu .menu-toggle{
+            	color: #17370b !important;
+			    font-size: 38px !important;
+			    margin: -2px 0 !important;
+            }
+
+
+
+
+           /* ------------ BODY A ------------ */
+           .body-a{
+           	   padding-top: 0;
+           	   padding-bottom: 0;
+           	   background: url(images/fundo-body-a.jpg) center top no-repeat;
+           	   background-size: 505%;
+           }
+           .body-a .linha-1 .vc_col-sm-3{
+           	   width: 100%;
+           }
+           .body-a .linha-1 .vc_col-sm-3 h3{
+           	   text-align: center;
+           	   margin: 0 0 28px;
+           }
+           .body-a .linha-1 .vc_col-sm-9{
+           	   text-align: center;
+           	   width: 100%;
+           }
+           .body-a .linha-1 .vc_col-sm-9 h3{
+           	    color: #37440c;
+			    font-family: 'arial-rounded-mt-bold';
+			    font-size: 20px !important;
+			    line-height: 30px;
+			    text-align: center;
+           }
+           .body-a .linha-2 h3{
+           	    font-size: 19px;
+           	    text-align: center;
+           }
+
+           .body-a .linha-1 .vc_col-sm-3 h1{
+                text-align: center;
+                font-size: 54px;
+           }
+
+
+
+
+           /* ------------ BODY B ------------ */
+           .body-b{
+           	    background: url(images/fundo-body-b.jpg) center top no-repeat;
+                background-size: 344% !important;
+                padding: 70px 0 41px;
+           }
+
+
+           /* ------------ RODAPÉ ------------ */
+
+           #Footer .widgets_wrapper .column.one-third:nth-child(1) h3{
+           	    font-size: 45px;
+                line-height: 70px;
+           }
+           #Footer .widgets_wrapper .column.one-third:nth-child(1) h3 strong{
+           	    font-size: 73px;
+           }
+
+           #Footer .widgets_wrapper .column.one-third:nth-child(2) img{
+           	   margin: 0;
+           	   width: 138px;
+           }
+
+           #Footer .widgets_wrapper .column.one-third:nth-child(2){
+           	   margin: 0;
+           }
+
+           #Footer .widgets_wrapper .column.one-third:nth-child(2) p:nth-child(1) img:nth-child(2),
+           #Footer .widgets_wrapper .column.one-third:nth-child(2) p:nth-child(2) img:nth-child(2),
+           #Footer .widgets_wrapper .column.one-third:nth-child(2) p:nth-child(3) img:nth-child(2){
+           	    float: right;
+                width: 138px;
+           }
+
+           #Footer .footer_copy .copyright img{
+           	    margin: 12px 144px 0;
+           }
+
+           #Footer .widgets_wrapper .column.one-third:nth-child(3) img{
+                margin: 8px 95px 16px;
+               float: left;
+           }
+           #Footer .widgets_wrapper .column.one-third:nth-child(3) p{
+                font-size: 16px;
+                line-height: 23px;
+           }
+
+           #Footer .footer_copy .copyright img.certificado{
+                margin: 0 90px 12px;
+           }
+
+
+
+           /* ------------ PÁGINAS ------------ */
+
+
+           /* ------------ SESSÕES ------------ */
+
+           .page-id-176 .pg-sessoes-linha1{
+           	    background-attachment: inherit;
+           }
+           .page-id-176 .pg-sessoes-linha1 .vc_col-sm-12{
+           	    height: 100%!important;
+			    background: linear-gradient(45deg, #59a04ebf, transparent);
+			    min-height: 131px;
+			    box-sizing: border-box;
+			    padding: 70px 0px 0 11px;
+			    width: 100%;
+           }
+           .page-id-176 .pg-sessoes-linha1 h1{
+               font-size: 19px;
+           }
+
+           .page-id-176 .pg-sessoes .grid .post-desc-wrapper .post-desc{
+           	    height: auto;
+           	    padding: 27px 21px 38px !important;
+           }
+           .page-id-176 .pg-sessoes .grid .post-desc-wrapper .post-desc h2 a{
+           	    color: #17370b;
+			    font-family: 'arial-rounded-mt-bold';
+			    font-size: 19px;
+           }
+
+           .post-template-default #Subheader{
+           	    background-attachment: inherit;
+           }
+           .post-template-default #Subheader .container{
+           	   padding: 55px 0px 0 0;
+           	   min-height: 168px;
+           }
+
+           .post-template-default #Subheader .container h1{
+           	   font-size: 21px !important;
+           }
+           .post-template-default #Content strong{
+           	   font-size:14px;
+           }
+           .post-template-default #Content h3{
+           	    font-size: 15px;
+               line-height: 25px;
+           }
+
+           .post-template-default #Content p a{
+           	    width: 100%;
+			    float: left;
+			    font-size: 14px;
+           }
+
+           .wpb-js-composer .vc_tta.vc_general .vc_tta-panel-title{
+           	    text-align: center;
+           	    color: #fff;
+           }
+
+           .wpb-js-composer .vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel.vc_active .vc_tta-panel-title>a{
+           	    background: #17370b !important;
+           }
+
+           .wpb-js-composer .vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-title>a{
+			    border-width: 0 !important;
+			    background: #92aa42 !important;
+			    font-family: 'arial-rounded-mt-bold';
+			    color: #fff !important;
+			    text-transform: uppercase;
+			    font-size: 17px;
+			    padding: 11px 15px !important;
+			    border-radius: 7px !important;
+           }
+
+           .wpb-js-composer .vc_tta.vc_general .vc_tta-panel.vc_active .vc_tta-panel-body{
+           	    background: transparent !important;
+           }
+
+           .page-id-176 .pg-sessoes .clearfix{
+                width: 100%;
+           }
+
+           .page-id-176 .pg-sessoes .grid .post-desc-wrapper .post-desc h2{
+                height: 62px;
+           }
+
+
+           /* ------------ SOBRE O PROJETO ------------ */
+           .page-id-178 .pg-projeto-linha1{
+           	   background-attachment: inherit;
+           }
+           .page-id-178 .pg-projeto-linha1 .vc_col-sm-12{
+           	   padding: 80px 0px 0 0;
+           	   min-height: 166px;
+           }
+           .page-id-178 .pg-sobre-projeto{
+           	   padding: 38px 5px;
+           }
+           .page-id-178 .pg-sobre-projeto .equipe .vc_separator.vc_separator_align_center h4{
+               text-align: center;
+               font-size: 18px;
+           }
+
+
+
+
+           /* ------------ POLOS ------------ */
+
+           .content-polos{
+           	   padding: 52px 2px;
+           }
+           .content-polos p.botao-polos a{
+	           	background: green;
+			    font-family: 'arial-rounded-mt-bold';
+			    color: #fff;
+			    text-transform: uppercase;
+			    font-size: 13px;
+			    padding: 11px 18px;
+			    border-radius: 59px;
+			    text-decoration: none;
+			    box-shadow: 5px 5px 6px #969696;
+			    float: left;
+			    line-height: 20px;
+           }
+
+
+
+           /* ------------ PORTO FRANCO ------------ */
+           .page-id-221 .pg-porto-franco-linha1{
+           	   background-attachment: inherit;
+           }
+           .page-id-221 .pg-porto-franco-linha1 .vc_col-sm-12{
+           	   padding: 105px 0px 0 0;
+           	   min-height: 165px;
+           }
+
+
+           /* ------------ VIANA ------------ */
+           .page-id-223 .pg-viana-linha1{
+           	   background-attachment: inherit;
+           }
+           .page-id-223 .pg-viana-linha1 .vc_col-sm-12{
+           	   padding: 103px 0px 0 0;
+           	   min-height: 165px;
+           }
+
+
+           /* ------------ IMPERATRIZ ------------ */
+           .page-id-224 .pg-imperatriz-linha1{
+           	   background-attachment: inherit;
+           }
+           .page-id-224 .pg-imperatriz-linha1 .vc_col-sm-12{
+           	   padding: 103px 0px 0 0;
+           	   min-height: 163px;
+           }
+
+
+           /* ------------ NINA RODRIGUES ------------ */
+           .page-id-225 .pg-nina-rodrigues-linha1{
+           	   background-attachment: inherit;
+           }
+           .page-id-225 .pg-nina-rodrigues-linha1 .vc_col-sm-12{
+           	   padding: 103px 0px 0 0;
+           	   min-height: 166px;
+           }
+
+
+           /* ------------ ANAIS ELETRÔNICOS ------------ */
+           .page-id-154 .pg-anais-eletronicos-linha1{
+           	   background-attachment: inherit;
+           }
+           .page-id-154 .pg-anais-eletronicos-linha1 .vc_col-sm-12{
+                padding: 94px 0px 0 0;
+                min-height: 161px;
+           }
+
+           .page-id-154 .pg-anais-eletronicos h1{
+                text-align: center;
+                font-family: 'arial-rounded-mt-bold';
+                text-transform: uppercase;
+                font-size: 15px;
+                font-weight: 700;
+                color: #17370b;
+                margin: 29px 0 76px !important;
+                line-height: 25px;
+           }
+           .page-id-154 .pg-anais-eletronicos .vc_col-sm-4{
+                background: #ecffe5;
+                width: 100%;
+                margin: 0 0 47px;
+                padding: 0 0 17px;
+                box-shadow: 0px 0px 11px #88a77c;
+                border-radius: 8px;
+                height: auto;
+           }
+           .page-id-154 .pg-anais-eletronicos .vc_col-sm-4 h3 a{
+                font-size: 18px;
+           }
+
+
+           .category-polo-santa-ines .vc_col-sm-12,
+           .category-polo-imperatriz .vc_col-sm-12,
+           .category-polo-anapurus .vc_col-sm-12,
+           .category-polo-porto-frango .vc_col-sm-12,
+           .category-polo-viana .vc_col-sm-12,
+           .category-polo-nina-rodrigues .vc_col-sm-12{
+                background: white;
+                padding: 0;
+                border-radius: 20px;
+                margin: -67px 0 0;
+           }
+           .category-polo-santa-ines .vc_col-sm-12 h1,
+           .category-polo-imperatriz .vc_col-sm-12 h1,
+           .category-polo-anapurus .vc_col-sm-12 h1,
+           .category-polo-porto-frango .vc_col-sm-12 h1,
+           .category-polo-viana .vc_col-sm-12 h1,
+           .category-polo-nina-rodrigues .vc_col-sm-12 h1{
+                color: #000;
+                font-family: 'arial-rounded-mt-bold';
+                font-size: 19px;
+                line-height: 28px;
+                text-align: center;
+                margin: 0 0 14px;
+           }
+           .category-polo-santa-ines .vc_col-sm-12 h3,
+           .category-polo-imperatriz .vc_col-sm-12 h3,
+           .category-polo-anapurus .vc_col-sm-12 h3,
+           .category-polo-porto-frango .vc_col-sm-12 h3,
+           .category-polo-viana .vc_col-sm-12 h3,
+           .category-polo-nina-rodrigues .vc_col-sm-12 h3{
+                font-size: 13px !important;
+                line-height: 20px !important;
+                margin: 0 0 32px !important;
+           }
+
+           .category-polo-santa-ines .vc_col-sm-12 .vc_col-sm-8 a,
+           .category-polo-imperatriz .vc_col-sm-12 a,
+           .category-polo-anapurus .vc_col-sm-12 a,
+           .category-polo-porto-frango .vc_col-sm-12 a,
+           .category-polo-viana .vc_col-sm-12 a,
+           .category-polo-nina-rodrigues .vc_col-sm-12 a{
+                background: transparent !important;
+                padding: 0 !important;
+                color: #000 !important;
+                font-family: 'myriad-pro' !important;
+                font-weight: bold;
+                font-size: 18px !important;
+                border-bottom: 2px solid;
+                border-radius: 0 !important;
+                line-height: 25px !important;
+                margin: 0 0 19px;
+           }
+
+
+
+
+           /* ------------ ANAPURUS ------------ */
+           .page-id-245 .pg-anapurus-linha1{
+           	   background-attachment: inherit;
+           }
+           .page-id-245 .pg-anapurus-linha1 .vc_col-sm-12{
+           	   padding: 74px 0px 0 0;
+           	   min-height: 165px;
+           }
+
+
+           /* ------------ SANTA INÊS ------------ */
+
+           .page-id-247 .pg-santa-ines-linha1{
+           	   background-attachment: inherit;
+           }
+           .page-id-247 .pg-santa-ines-linha1 .vc_col-sm-12{
+           	   padding: 83px 0px 0 0;
+           	   min-height: 167px;
+           }
+
+
+
+
+
+
+          }
